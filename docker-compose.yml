@@ -1,6 +1,7 @@
-version: "3.11" # docker composeapi
+version: "3.11" # Docker ComposeAPI
+
 services:
-  app: #django
+  app: # Django 
     build:
       context: .
       args:
